@@ -1,0 +1,57 @@
+# Prestige Skincare at Sephora
+
+## Project Overview
+
+This project explores what differentiates prestige skincare products on Sephora using Python, statistical analysis, and data visualization.
+
+Rather than assuming higher prices indicate better products, the analysis investigates whether pricing, product characteristics, ingredients, categories, or brands explain customer satisfaction and consumer attention.
+
+## Business Questions
+
+1. Does paying more lead to higher customer satisfaction?
+2. Do consumers pay more attention to expensive products?
+3. Do objective product characteristics explain consumer perception?
+4. Does brand matter more than product characteristics?
+
+## Dataset
+
+- ~1,500 prestige skincare products from Sephora
+- Variables include:
+  - Price
+  - Rating
+  - Sephora Loves
+  - Brand
+  - Product category
+  - Ingredient list
+
+## Methods
+
+- Exploratory Data Analysis (EDA)
+- Pearson correlation
+- Linear regression
+- Mann–Whitney U tests
+- Benjamini–Hochberg multiple testing correction
+- Brand and category fixed-effects regression
+
+## Key Findings
+
+- Product price has virtually no relationship with customer ratings.
+- Higher-priced products receive only slightly more consumer attention.
+- Product categories explain relatively little variation in consumer outcomes.
+- Ingredient families are much more strongly associated with pricing than with customer ratings or attention.
+- Brand explains substantially more variation in pricing, ratings, and consumer attention than product category.
+
+## Tools
+
+- Python
+- pandas
+- NumPy
+- matplotlib
+- scipy
+- statsmodels
+- Google Colab
+
+## Repository Contents
+
+- `Sephora_Analysis_.ipynb`
+- `README.md`
